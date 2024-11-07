@@ -254,4 +254,4 @@ logoBtn.addEventListener('click', function() {
     showContainer('hello__container');
 });
 
-fillProductList(sortedGreens);
+// fillProductList(sortedGreens);
