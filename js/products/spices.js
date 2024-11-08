@@ -1,113 +1,113 @@
-const groceriesData = [
+const spicesData = [
     {
         id: 1,
         name: 'Аджика суха',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 2,
         name: 'Аніс цілий',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 3,
         name: 'Бодян цілий',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 4,
         name: 'Барбарис',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 5,
         name: 'Гвоздика ціла',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 6,
         name: 'Гірчиця мелена',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 7,
         name: 'Гірчиця ціла',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 8,
         name: 'Зіра мелена',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 9,
         name: 'Зіра ціла',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 11,
         name: 'Кориця паличка (шт)',
-        category: "grocery",
+        category: "spices",
         minOrder: '1 шт',
         available: false
     },
     {
         id: 12,
         name: 'Кориця мелена',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 13,
         name: 'Мускатний горіх цілий (шт)',
-        category: "grocery",
+        category: "spices",
         minOrder: '5 шт',
         available: false
     },
     {
         id: 14,
         name: 'Мускатний горіх мелений',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 15,
         name: 'Ваніль паличка (шт)',
-        category: "grocery",
+        category: "spices",
         minOrder: '5 шт',
         available: false
     },
     {
         id: 16,
         name: 'Папріка копчена мелена',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
     {
         id: 17,
         name: 'Перець солодкий сушенений мелений',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
@@ -115,7 +115,7 @@ const groceriesData = [
         id: 18,
         code: 'g18',
         name: 'Перець чілі сушений різаний',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
@@ -123,7 +123,7 @@ const groceriesData = [
         id: 19,
         code: 'g19',
         name: 'Сванська сіль',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
@@ -131,7 +131,7 @@ const groceriesData = [
         id: 20,
         code: 'g20',
         name: 'Сумах',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
@@ -139,7 +139,7 @@ const groceriesData = [
         id: 21,
         code: 'g21',
         name: "Суміш для м'яса",
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
@@ -147,7 +147,7 @@ const groceriesData = [
         id: 22,
         code: 'g22',
         name: 'Суміш для перших страв',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
@@ -155,7 +155,7 @@ const groceriesData = [
         id: 23,
         code: 'g23',
         name: 'Суміш для плову',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
@@ -163,7 +163,7 @@ const groceriesData = [
         id: 24,
         code: 'g24',
         name: 'Суміш для риби',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
@@ -171,7 +171,7 @@ const groceriesData = [
         id: 25,
         code: 'g25',
         name: 'Уцхо сунелі',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },
@@ -179,7 +179,7 @@ const groceriesData = [
         id: 26,
         code: 'g26',
         name: 'Хмелі сунелі',
-        category: "grocery",
+        category: "spices",
         minOrder: '50 гр',
         available: false
     },

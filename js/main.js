@@ -1,8 +1,9 @@
 const selectedProductKey = 'selectedProducts';
 
 let sortedFruits = fruitsData.sort((a, b) => a.name.localeCompare(b.name));
+let sortedDriedFruits = driedFruitsData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedVegetables = vegetablesData.sort((a, b) => a.name.localeCompare(b.name));
-let sortedGroceries = groceriesData.sort((a, b) => a.name.localeCompare(b.name));
+let sortedSpices = spicesData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedGreens = greensData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedNuts = nutsData.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -29,10 +30,12 @@ let menu = document.querySelector('.nav');
 let menuItem = document.querySelectorAll('.nav__link');
 
 let fruitsBtn = document.querySelector('#fruits-btn')
+let fruitsExoticBtn = document.querySelector('#fruits-exotic-btn')
+let driedFruitsBtn = document.querySelector('#dried-fruits-btn')
 let vegetables = document.querySelector('#vegetables-btn')
 let green = document.querySelector('#green-btn')
 let nuts = document.querySelector('#nuts-btn')
-let grocery = document.querySelector('#grocery-btn')
+let spices = document.querySelector('#spices-btn')
 let sweets = document.querySelector('#sweets-btn')
 let contacts = document.querySelector('#contacts-btn')
 
@@ -44,6 +47,14 @@ let productViewCard = document.querySelector('.product__view');
 
 fruitsBtn.addEventListener('click', function(){
     fillProductList(sortedFruits);
+});
+
+fruitsExoticBtn.addEventListener('click', function(){
+    // fillProductList(sortedFruits);
+});
+
+driedFruitsBtn.addEventListener('click', function(){
+    fillProductList(sortedDriedFruits);
 });
 
 vegetables.addEventListener('click', function(){
@@ -58,8 +69,8 @@ nuts.addEventListener('click', function(){
     fillProductList(sortedNuts);
 });
 
-grocery.addEventListener('click', function(){
-    fillProductList(sortedGroceries);
+spices.addEventListener('click', function(){
+    fillProductList(sortedSpices);
 });
 
 sweets.addEventListener('click', function(){
@@ -180,7 +191,7 @@ function productClick(){
     //         x = vegetablesData.find(x => x.id == productId);
     //         break;
     //     case 'grocery':
-    //         x = groceriesData.find(x => x.id == productId);
+    //         x = spicesData.find(x => x.id == productId);
     //         break;
     // }
 
@@ -255,4 +266,4 @@ logoBtn.addEventListener('click', function() {
     showContainer('hello__container');
 });
 
-// fillProductList(sortedNuts);
+// fillProductList(sortedDriedFruits);

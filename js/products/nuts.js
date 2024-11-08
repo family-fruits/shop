@@ -160,4 +160,11 @@ const nutsData = [
         minOrder: '100 гр',
         available: false
     },
+    {
+        id: 24,
+        name: 'Фісташки смажені солоні',
+        category: "nuts",
+        minOrder: '100 гр',
+        available: true
+    },
 ];
