@@ -4,6 +4,7 @@ let sortedFruits = fruitsData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedVegetables = vegetablesData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedGroceries = groceriesData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedGreens = greensData.sort((a, b) => a.name.localeCompare(b.name));
+let sortedNuts = nutsData.sort((a, b) => a.name.localeCompare(b.name));
 
 
 
@@ -54,7 +55,7 @@ green.addEventListener('click', function(){
 });
 
 nuts.addEventListener('click', function(){
-    console.log('nuts');
+    fillProductList(sortedNuts);
 });
 
 grocery.addEventListener('click', function(){
@@ -254,4 +255,4 @@ logoBtn.addEventListener('click', function() {
     showContainer('hello__container');
 });
 
-// fillProductList(sortedGreens);
+fillProductList(sortedNuts);
