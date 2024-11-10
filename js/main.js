@@ -2,6 +2,7 @@ const selectedProductKey = 'selectedProducts';
 
 let sortedFruits = fruitsData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedDriedFruits = driedFruitsData.sort((a, b) => a.name.localeCompare(b.name));
+let sortedExotics = exoticsData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedVegetables = vegetablesData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedSpices = spicesData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedGreens = greensData.sort((a, b) => a.name.localeCompare(b.name));
@@ -57,9 +58,8 @@ berriesBtn.addEventListener('click', function(){
     fillProductList(sortedBerries);
 });
 
-
 fruitsExoticBtn.addEventListener('click', function(){
-    // fillProductList(sortedFruits);
+    fillProductList(sortedExotics);
 });
 
 driedFruitsBtn.addEventListener('click', function(){
@@ -280,4 +280,4 @@ logoBtn.addEventListener('click', function() {
     showContainer('hello__container');
 });
 
-// fillProductList(sortedBerries);
+// fillProductList(sortedExotics);
