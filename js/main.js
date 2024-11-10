@@ -273,4 +273,4 @@ logoBtn.addEventListener('click', function() {
     showContainer('hello__container');
 });
 
-fillProductList(sortedSpices);
+// fillProductList(sortedSpices);
