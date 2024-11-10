@@ -6,6 +6,7 @@ let sortedVegetables = vegetablesData.sort((a, b) => a.name.localeCompare(b.name
 let sortedSpices = spicesData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedGreens = greensData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedNuts = nutsData.sort((a, b) => a.name.localeCompare(b.name));
+let sortedGroceries = groceriesData.sort((a, b) => a.name.localeCompare(b.name));
 
 
 
@@ -37,6 +38,7 @@ let green = document.querySelector('#green-btn')
 let nuts = document.querySelector('#nuts-btn')
 let spices = document.querySelector('#spices-btn')
 let sweets = document.querySelector('#sweets-btn')
+let groceries = document.querySelector('#grocery-btn')
 let contacts = document.querySelector('#contacts-btn')
 
 let basketBtn = document.querySelector('#basketBtn')
@@ -71,6 +73,10 @@ nuts.addEventListener('click', function(){
 
 spices.addEventListener('click', function(){
     fillProductList(sortedSpices);
+});
+
+groceries.addEventListener('click', function(){
+    fillProductList(sortedGroceries);
 });
 
 sweets.addEventListener('click', function(){
@@ -167,6 +173,7 @@ function fillProductList(items) {
                             ${x.available ? "В наявності" : "Під замовлення"}
                         </p>
                         <p class="product-min-order">Мін. замовлення ${x.minOrder}</p>
+                        <p class="product-price ${x.price == undefined || x.price == '' ? 'hide' :''}">${x.price}</p>
                     </div>
                 </div>
             `;
@@ -266,4 +273,4 @@ logoBtn.addEventListener('click', function() {
     showContainer('hello__container');
 });
 
-// fillProductList(sortedDriedFruits);
+// fillProductList(sortedGroceries);

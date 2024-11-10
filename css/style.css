@@ -264,6 +264,7 @@ a {
   font-weight: 300;
 }
 .products__card .product-price {
+  margin-top: 5px;
   white-space: nowrap;
   color: #534746;
   font-size: 16px;
