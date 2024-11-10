@@ -107,9 +107,9 @@ const spicesData = [
         id: 15,
         name: 'Ваніль паличка (шт)',
         category: "spices",
-        minOrder: '5 шт',
+        minOrder: '1 шт',
         available: false,
-        price: '525',
+        price: '105',
     },
     {
         id: 16,
