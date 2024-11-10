@@ -173,7 +173,7 @@ function fillProductList(items) {
                             ${x.available ? "В наявності" : "Під замовлення"}
                         </p>
                         <p class="product-min-order">Мін. замовлення ${x.minOrder}</p>
-                        <p class="product-price ${x.price == undefined || x.price == '' ? 'hide' :''}">${x.price}</p>
+                        <p class="product-price ${x.price == undefined || x.price == '' ? 'hide' :''}">Ціна: ${x.price} ₴ / ${x.minOrder}</p>
                     </div>
                 </div>
             `;
@@ -273,4 +273,4 @@ logoBtn.addEventListener('click', function() {
     showContainer('hello__container');
 });
 
-// fillProductList(sortedGroceries);
+fillProductList(sortedSpices);
