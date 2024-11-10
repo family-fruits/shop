@@ -7,6 +7,7 @@ let sortedSpices = spicesData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedGreens = greensData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedNuts = nutsData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedGroceries = groceriesData.sort((a, b) => a.name.localeCompare(b.name));
+let sortedBerries = berriesData.sort((a, b) => a.name.localeCompare(b.name));
 
 
 
@@ -31,6 +32,7 @@ let menu = document.querySelector('.nav');
 let menuItem = document.querySelectorAll('.nav__link');
 
 let fruitsBtn = document.querySelector('#fruits-btn')
+let berriesBtn = document.querySelector('#berries-btn')
 let fruitsExoticBtn = document.querySelector('#fruits-exotic-btn')
 let driedFruitsBtn = document.querySelector('#dried-fruits-btn')
 let vegetables = document.querySelector('#vegetables-btn')
@@ -50,6 +52,11 @@ let productViewCard = document.querySelector('.product__view');
 fruitsBtn.addEventListener('click', function(){
     fillProductList(sortedFruits);
 });
+
+berriesBtn.addEventListener('click', function(){
+    fillProductList(sortedBerries);
+});
+
 
 fruitsExoticBtn.addEventListener('click', function(){
     // fillProductList(sortedFruits);
@@ -273,4 +280,4 @@ logoBtn.addEventListener('click', function() {
     showContainer('hello__container');
 });
 
-// fillProductList(sortedSpices);
+// fillProductList(sortedBerries);

@@ -129,7 +129,6 @@ const spicesData = [
     },
     {
         id: 18,
-        code: 'g18',
         name: 'Перець чілі сушений різаний',
         category: "spices",
         minOrder: '50 гр',
@@ -138,7 +137,6 @@ const spicesData = [
     },
     {
         id: 19,
-        code: 'g19',
         name: 'Сванська сіль',
         category: "spices",
         minOrder: '50 гр',
@@ -147,7 +145,6 @@ const spicesData = [
     },
     {
         id: 20,
-        code: 'g20',
         name: 'Сумах',
         category: "spices",
         minOrder: '50 гр',
@@ -156,7 +153,6 @@ const spicesData = [
     },
     {
         id: 21,
-        code: 'g21',
         name: "Суміш для м'яса",
         category: "spices",
         minOrder: '50 гр',
@@ -165,7 +161,6 @@ const spicesData = [
     },
     {
         id: 22,
-        code: 'g22',
         name: 'Суміш для перших страв',
         category: "spices",
         minOrder: '50 гр',
@@ -174,7 +169,6 @@ const spicesData = [
     },
     {
         id: 23,
-        code: 'g23',
         name: 'Суміш для плову',
         category: "spices",
         minOrder: '50 гр',
@@ -183,7 +177,6 @@ const spicesData = [
     },
     {
         id: 24,
-        code: 'g24',
         name: 'Суміш для риби',
         category: "spices",
         minOrder: '50 гр',
@@ -192,7 +185,6 @@ const spicesData = [
     },
     {
         id: 25,
-        code: 'g25',
         name: 'Уцхо сунелі',
         category: "spices",
         minOrder: '50 гр',
@@ -201,7 +193,6 @@ const spicesData = [
     },
     {
         id: 26,
-        code: 'g26',
         name: 'Хмелі сунелі',
         category: "spices",
         minOrder: '50 гр',
