@@ -280,4 +280,4 @@ logoBtn.addEventListener('click', function() {
     showContainer('hello__container');
 });
 
-// fillProductList(sortedExotics);
+fillProductList(sortedGroceries);

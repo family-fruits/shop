@@ -5,7 +5,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "135"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "150"
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "150"
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "130"
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "40"
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "40"
     },
     {
         id: 7,
@@ -53,7 +53,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "40"
     },
     {
         id: 8,
@@ -61,7 +61,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "55"
     },
     {
         id: 9,
@@ -69,7 +69,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "26"
     },
     {
         id: 10,
@@ -77,7 +77,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "45"
     },
     {
         id: 11,
@@ -85,7 +85,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "52"
     },
     {
         id: 12,
@@ -93,7 +93,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "33"
     },
     {
         id: 13,
@@ -101,7 +101,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "52"
     },
     {
         id: 14,
@@ -125,7 +125,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "40"
     },
     {
         id: 17,
@@ -133,7 +133,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "40"
     },
     {
         id: 18,
@@ -141,7 +141,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "50"
     },
     {
         id: 19,
@@ -157,6 +157,6 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: ""
+        price: "85"
     },
 ];
