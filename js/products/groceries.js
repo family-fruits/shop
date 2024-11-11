@@ -104,22 +104,6 @@ const groceriesData = [
         price: "52"
     },
     {
-        id: 14,
-        name: 'Квасоля Кавова',
-        category: "grocery",
-        minOrder: '0.5 кг',
-        available: false,
-        price: ""
-    },
-    {
-        id: 15,
-        name: 'Квасоля Чорна',
-        category: "grocery",
-        minOrder: '0.5 кг',
-        available: false,
-        price: ""
-    },
-    {
         id: 16,
         name: 'Квасоля червона',
         category: "grocery",
@@ -142,14 +126,6 @@ const groceriesData = [
         minOrder: '0.5 кг',
         available: false,
         price: "50"
-    },
-    {
-        id: 19,
-        name: 'Сочевиця зелена',
-        category: "grocery",
-        minOrder: '0.5 кг',
-        available: false,
-        price: ""
     },
     {
         id: 20,
