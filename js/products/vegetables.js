@@ -316,7 +316,7 @@ const vegetablesData = [
     },
     {
         id: 46,
-        name: 'Помідор чері Алегро  500г',
+        name: 'Помідор чері Алегро 500г',
         category: "vegetables",
         minOrder: '1 шт',
         available: false
