@@ -52,14 +52,14 @@ const fruitsData = [
         id: 8,
         name: 'Гранат',
         category: "fruits",
-        minOrder: '0.5 кг',
+        minOrder: '1 шт',
         available: true
     },
     {
         id: 9,
         name: 'Грейпфрут',
         category: "fruits",
-        minOrder: '0.5 кг',
+        minOrder: '1 шт',
         available: true
     },
     {
@@ -74,13 +74,6 @@ const fruitsData = [
         name: 'Груша Ксенія Імпорт',
         category: "fruits",
         minOrder: '0.5 кг',
-        available: true
-    },
-    {
-        id: 12,
-        name: 'Груша Туреччина',
-        category: "fruits",
-        minOrder: '0.5 кг',
         available: false
     },
     {
@@ -89,13 +82,6 @@ const fruitsData = [
         category: "fruits",
         minOrder: '0.5 кг',
         available: true
-    },
-    {
-        id: 14,
-        name: 'Помело червоне',
-        category: "fruits",
-        minOrder: '0.5 кг',
-        available: false
     },
     {
         id: 15,
@@ -108,7 +94,7 @@ const fruitsData = [
         id: 16,
         name: 'Лайм',
         category: "fruits",
-        minOrder: '0.5 кг',
+        minOrder: '1 шт',
         available: false
     },
     {
@@ -123,7 +109,7 @@ const fruitsData = [
         name: 'Мандарин клементин',
         category: "fruits",
         minOrder: '0.5 кг',
-        available: true
+        available: false
     },
     {
         id: 19,
@@ -136,14 +122,14 @@ const fruitsData = [
         id: 20,
         name: 'Помело',
         category: "fruits",
-        minOrder: '0.5 кг',
+        minOrder: '1 шт',
         available: false
     },
     {
         id: 21,
         name: 'Світі',
         category: "fruits",
-        minOrder: '0.5 кг',
+        minOrder: '1 шт',
         available: true
     },
     {
@@ -164,21 +150,21 @@ const fruitsData = [
         id: 24,
         name: 'Фейхоа Грузія',
         category: "fruits",
-        minOrder: '0.5 кг',
+        minOrder: '1 шт',
         available: false
     },
     {
         id: 25,
         name: 'Хурма Азербайджан',
         category: "fruits",
-        minOrder: '0.5 кг',
+        minOrder: '1 шт',
         available: true
     },
     {
         id: 26,
         name: 'Хурма Шарон',
         category: "fruits",
-        minOrder: '0.5 кг',
+        minOrder: '1 шт',
         available: true
     },
     {
@@ -193,7 +179,7 @@ const fruitsData = [
         name: 'Яблуко Горець',
         category: "fruits",
         minOrder: '0.5 кг',
-        available: false
+        available: true
     },
     {
         id: 29,
@@ -207,21 +193,21 @@ const fruitsData = [
         name: 'Яблуко Ред Чіф',
         category: "fruits",
         minOrder: '0.5 кг',
-        available: false
+        available: true
     },
     {
         id: 31,
         name: 'Яблуко Симиренко',
         category: "fruits",
         minOrder: '0.5 кг',
-        available: false
+        available: true
     },
     {
         id: 32,
         name: 'Яблуко Флоріна',
         category: "fruits",
         minOrder: '0.5 кг',
-        available: false
+        available: true
     },
     {
         id: 33,
@@ -235,6 +221,20 @@ const fruitsData = [
         name: 'Яблуко Чорний принц',
         category: "fruits",
         minOrder: '0.5 кг',
+        available: true
+    },
+    {
+        id: 35,
+        name: 'Гранат Еліт без кісточки',
+        category: "fruits",
+        minOrder: '1 шт',
         available: false
+    },
+    {
+        id: 36,
+        name: 'Лимон',
+        category: "fruits",
+        minOrder: '0.5 кг',
+        available: true
     },
 ];
