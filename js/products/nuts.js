@@ -167,4 +167,18 @@ const nutsData = [
         minOrder: '100 г',
         available: true
     },
+    {
+        id: 25,
+        name: 'Горіх волоський очищений',
+        category: "nuts",
+        minOrder: '100 г',
+        available: true
+    },
+    {
+        id: 26,
+        name: 'Горіх волоський  очищений половинки',
+        category: "nuts",
+        minOrder: '100 г',
+        available: true
+    },
 ];
