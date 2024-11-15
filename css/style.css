@@ -153,7 +153,14 @@ a {
 .hello__main-hint-items {
   margin-bottom: 20px;
 }
-.hello__main-location {
+.hello__how-it-works {
+  font-size: 18px;
+  font-family: "Myra4F";
+  font-weight: 500;
+  color: #c6ff7c;
+  margin-bottom: 10px;
+}
+.hello__location {
   display: block;
   width: 100%;
   text-align: center;
@@ -163,12 +170,10 @@ a {
   border-radius: 10px;
   line-height: 22px;
 }
-.hello__how-it-works {
-  font-size: 18px;
-  font-family: "Myra4F";
+.hello__location-google-map {
+  display: block;
+  margin-top: 10px;
   font-weight: 500;
-  color: #c6ff7c;
-  margin-bottom: 10px;
 }
 .hello li {
   font-size: 18px;
@@ -191,6 +196,7 @@ a {
   border-radius: 10px;
   padding: 10px 16px;
   border: 2px solid #c6ff7c;
+  text-align: center;
 }
 .hello .social__container .social-btn-img {
   height: 30px;

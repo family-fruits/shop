@@ -132,4 +132,18 @@ const driedFruitsData = [
         minOrder: '100 гр',
         available: false
     },
+    {
+        id: 20,
+        name: 'Фініки Мазафати 500г',
+        category: "dried-fruits",
+        minOrder: '1 шт',
+        available: true
+    },
+    {
+        id: 21,
+        name: 'Інжир 250г',
+        category: "dried-fruits",
+        minOrder: '1 шт',
+        available: true
+    },
 ];

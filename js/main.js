@@ -287,4 +287,4 @@ logoBtn.addEventListener('click', function() {
     showContainer('hello__container');
 });
 
-// fillProductList(sortedVegetables);
+// fillProductList(sortedGroceries);

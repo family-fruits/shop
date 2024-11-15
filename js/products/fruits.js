@@ -35,18 +35,11 @@ const fruitsData = [
         available: true
     },
     {
-        id: 6,
-        name: 'Апельсин фреш',
-        category: "fruits",
-        minOrder: '0.5 кг',
-        available: true
-    },
-    {
         id: 7,
         name: 'Банан',
         category: "fruits",
         minOrder: '0.5 кг',
-        available: false
+        available: true
     },
     {
         id: 8,
@@ -130,7 +123,7 @@ const fruitsData = [
         name: 'Світі',
         category: "fruits",
         minOrder: '1 шт',
-        available: true
+        available: false
     },
     {
         id: 22,

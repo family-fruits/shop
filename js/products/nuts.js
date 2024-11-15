@@ -151,7 +151,7 @@ const nutsData = [
         name: 'Насіння гарбуза очищене',
         category: "nuts",
         minOrder: '100 г',
-        available: false
+        available: true
     },
     {
         id: 23,

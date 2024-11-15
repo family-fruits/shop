@@ -4,7 +4,7 @@ const berriesData = [
         name: 'Виноград зелений',
         category: "berry",
         minOrder: '0.5 кг',
-        available: true,
+        available: false,
     },
     {
         id: 2,
@@ -39,7 +39,7 @@ const berriesData = [
         name: 'Журвлина свіжа',
         category: "berry",
         minOrder: '0.5 кг',
-        available: false,
+        available: true,
     },
     {
         id: 7,

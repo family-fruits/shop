@@ -124,7 +124,7 @@ const groceriesData = [
         name: 'Сочевиця помаранчева',
         category: "grocery",
         minOrder: '0.5 кг',
-        available: false,
+        available: true,
         price: "50"
     },
     {
@@ -134,5 +134,29 @@ const groceriesData = [
         minOrder: '0.5 кг',
         available: false,
         price: "85"
+    },
+    {
+        id: 21,
+        name: 'Цукрова пудра',
+        category: "grocery",
+        minOrder: '1 кг',
+        available: true,
+        price: "100"
+    },
+    {
+        id: 22,
+        name: 'Рис Басматі Білий',
+        category: "grocery",
+        minOrder: '0.5 кг',
+        available: true,
+        price: "50"
+    },
+    {
+        id: 23,
+        name: 'Рис Басматі Жовтий',
+        category: "grocery",
+        minOrder: '0.5 кг',
+        available: true,
+        price: "70"
     },
 ];
