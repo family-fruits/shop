@@ -102,7 +102,7 @@ const fruitsData = [
         name: 'Мандарин клементин',
         category: "fruits",
         minOrder: '0.5 кг',
-        available: false
+        available: true
     },
     {
         id: 19,
