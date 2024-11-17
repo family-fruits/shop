@@ -20,11 +20,13 @@ let sortedSweets = sweetsData.sort((a, b) => a.name.localeCompare(b.name));
 const helloContainer = document.querySelector('.hello__container');
 const productContainer = document.querySelector(".products__container");
 const basketContainer = document.querySelector(".basket__container");
+const contactsContainer = document.querySelector(".contacts__container");
 
 const containers = [
     helloContainer,
     productContainer,
-    basketContainer
+    basketContainer,
+    contactsContainer
 ];
 
 const logoBtn = document.querySelector('.header__logo');
@@ -98,7 +100,7 @@ juices.addEventListener('click', function(){
 });
 
 contacts.addEventListener('click', function(){
-    console.log('contacts');
+    showContainer('contacts__container');
 });
 
 menuBtn.addEventListener('click', function(){
@@ -140,8 +142,6 @@ basketBtn.addEventListener('click', function() {
 });
 
 basketCopyBtn.addEventListener('click', function() {
-    // localStorage['selectedProducts'] += JSON.stringify(sortedFruits);
-
     let basketProductList = document.querySelectorAll('.basket__products-list-item');
 
     let order = '';
@@ -154,7 +154,6 @@ basketCopyBtn.addEventListener('click', function() {
     });
 
     console.log(order);
-    // console.log(localStorage['selectedProducts']);
 });
 
 basketClearBtn.addEventListener('click', function() {
@@ -288,3 +287,4 @@ logoBtn.addEventListener('click', function() {
 });
 
 // fillProductList(sortedGroceries);
+// showContainer('contacts__container');

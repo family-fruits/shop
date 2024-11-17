@@ -421,6 +421,65 @@ a {
   z-index: 1;
 }
 
+.contacts__container {
+  margin: 0 10px;
+}
+.contacts__header {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Myra4F";
+  font-weight: 500;
+}
+.contacts__info {
+  margin-top: 20px;
+}
+.contacts__info-location {
+  text-align: center;
+}
+.contacts__info-location-text {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+}
+.contacts__info-location-map {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(85, 85, 85);
+}
+.contacts__info-location-map-img {
+  width: 100%;
+}
+.contacts__info-phone {
+  margin-top: 30px;
+  font-size: 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+.contacts__info-viber {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.contacts__info-viber-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8cecbf;
+  border-radius: 10px;
+  padding: 10px 16px;
+  border: 2px solid #c6ff7c;
+  text-align: center;
+  width: 210px;
+}
+.contacts__info-viber-img {
+  height: 30px;
+  margin-right: 10px;
+}
+
 .hide {
   display: none;
 }

@@ -200,8 +200,6 @@ ol {
             }
 
         }
-
-        
     }
 
     &__how-it-works{
@@ -525,6 +523,77 @@ ol {
     background-repeat: no-repeat;
     background-size: 60%;
     z-index: 1;
+}
+
+.contacts {
+    &__container {
+        margin: 0 10px;
+    }
+
+    &__header {
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Myra4F';
+        font-weight: 500;
+    }
+
+    &__info {
+        margin-top: 20px;
+
+        &-location {
+            text-align: center;
+            &-text {
+                color: white;
+                font-size: 16px;
+                line-height: 20px;
+            }
+
+            &-map {
+                display: block;
+                margin-top: 10px;
+                font-size: 18px;
+                font-weight: 500;
+                color: rgb(85, 85, 85);
+
+                &-img {
+                    width: 100%;
+                }
+            }
+        }
+
+        &-phone {
+            margin-top: 30px;
+            font-size: 20px;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        &-viber {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+
+            &-link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #8cecbf;
+                border-radius: 10px;
+                padding: 10px 16px;
+    
+                border: 2px solid #c6ff7c;
+                text-align: center;
+                width: 210px;
+            }
+            
+            &-img {
+                height: 30px;
+                margin-right: 10px;
+            }
+        }
+    }
 }
 
 .hide {

@@ -36,7 +36,7 @@ const berriesData = [
     },
     {
         id: 6,
-        name: 'Журвлина свіжа',
+        name: 'Журавлина свіжа',
         category: "berry",
         minOrder: '0.5 кг',
         available: true,
