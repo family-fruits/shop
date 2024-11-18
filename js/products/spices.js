@@ -199,4 +199,12 @@ const spicesData = [
         available: false,
         price: '9',
     },
+    {
+        id: 27,
+        name: 'Куркума',
+        category: "spices",
+        minOrder: '50 г',
+        available: false,
+        price: '9',
+    },
 ];

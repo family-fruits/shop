@@ -159,4 +159,12 @@ const groceriesData = [
         available: true,
         price: "70"
     },
+    {
+        id: 24,
+        name: 'Яйця перепелині',
+        category: "grocery",
+        minOrder: '1 уп',
+        available: false,
+        price: "55"
+    },
 ];
