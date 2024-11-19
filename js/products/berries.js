@@ -53,7 +53,7 @@ const berriesData = [
         name: 'Лохина 125г (уп.)',
         category: "berry",
         minOrder: '1 шт',
-        available: true,
+        available: false,
     },
     {
         id: 9,

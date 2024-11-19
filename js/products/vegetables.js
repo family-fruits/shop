@@ -305,7 +305,7 @@ const vegetablesData = [
         name: 'Помідор рожевий',
         category: "vegetables",
         minOrder: '0.5 кг',
-        available: true
+        available: false
     },
     {
         id: 45,
