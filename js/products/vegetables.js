@@ -214,14 +214,14 @@ const vegetablesData = [
         name: 'Огірок гладкий',
         category: "vegetables",
         minOrder: '0.5 кг',
-        available: true
+        available: false
     },
     {
         id: 32,
         name: 'Огірок колючий',
         category: "vegetables",
         minOrder: '0.5 кг',
-        available: true
+        available: false
     },
     {
         id: 33,
