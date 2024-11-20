@@ -230,4 +230,11 @@ const fruitsData = [
         minOrder: '0.5 кг',
         available: true
     },
+    {
+        id: 37,
+        name: 'Хурма Корольок',
+        category: "fruits",
+        minOrder: '1 шт',
+        available: true
+    },
 ];
