@@ -11,9 +11,7 @@ let sortedGroceries = groceriesData.sort((a, b) => a.name.localeCompare(b.name))
 let sortedBerries = berriesData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedJuices = juicesData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedSweets = sweetsData.sort((a, b) => a.name.localeCompare(b.name));
-
-
-
+let sortedTea = teaData.sort((a, b) => a.name.localeCompare(b.name));
 
 
 // Containers
@@ -45,6 +43,7 @@ let green = document.querySelector('#green-btn')
 let nuts = document.querySelector('#nuts-btn')
 let spices = document.querySelector('#spices-btn')
 let sweets = document.querySelector('#sweets-btn')
+let tea = document.querySelector('#tea-btn')
 let groceries = document.querySelector('#grocery-btn')
 let juices = document.querySelector('#juices-btn')
 let contacts = document.querySelector('#contacts-btn')
@@ -93,6 +92,10 @@ groceries.addEventListener('click', function(){
 
 sweets.addEventListener('click', function(){
     fillProductList(sortedSweets);
+});
+
+tea.addEventListener('click', function(){
+    fillProductList(sortedTea);
 });
 
 juices.addEventListener('click', function(){

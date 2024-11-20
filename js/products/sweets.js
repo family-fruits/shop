@@ -71,4 +71,12 @@ const sweetsData = [
         available: true,
         price: "125"
     },
+    {
+        id: 10,
+        name: 'Пахлава медова',
+        category: "sweet",
+        minOrder: '0.5 кг',
+        available: true,
+        price: "100"
+    },
 ];
