@@ -90,20 +90,7 @@ const nutsData = [
         minOrder: '100 г',
         available: true
     },
-    {
-        id: 14,
-        name: 'Кунжут білий',
-        category: "nuts",
-        minOrder: '100 г',
-        available: false
-    },
-    {
-        id: 15,
-        name: 'Кунжут чорний',
-        category: "nuts",
-        minOrder: '100 г',
-        available: false
-    },
+    
     {
         id: 16,
         name: 'Ліщина бланшована',
@@ -180,5 +167,12 @@ const nutsData = [
         category: "nuts",
         minOrder: '100 г',
         available: true
+    },
+    {
+        id: 27,
+        name: 'Арахіс в кунжуті',
+        category: "nuts",
+        minOrder: '100 г',
+        available: false
     },
 ];

@@ -167,4 +167,20 @@ const groceriesData = [
         available: false,
         price: "55"
     },
+    {
+        id: 25,
+        name: 'Кунжут білий',
+        category: "nuts",
+        minOrder: '100 г',
+        available: false,
+        price: "20"
+    },
+    {
+        id: 26,
+        name: 'Кунжут чорний',
+        category: "nuts",
+        minOrder: '100 г',
+        available: false,
+        price: "25"
+    },
 ];
