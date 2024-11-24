@@ -146,4 +146,60 @@ const driedFruitsData = [
         minOrder: '1 шт',
         available: true
     },
+    {
+        id: 22,
+        name: 'Чорнослив в шоколаді 200г',
+        category: "dried-fruits",
+        minOrder: '1 шт',
+        available: false
+    },
+    {
+        id: 23,
+        name: 'Інжир в шоколаді 200г',
+        category: "dried-fruits",
+        minOrder: '1 шт',
+        available: false
+    },
+    {
+        id: 24,
+        name: 'Манго в шоколаді 200г',
+        category: "dried-fruits",
+        minOrder: '1 шт',
+        available: false
+    },
+    {
+        id: 25,
+        name: 'Чорнослив в шоколаді 500г',
+        category: "dried-fruits",
+        minOrder: '1 шт',
+        available: false
+    },
+    {
+        id: 26,
+        name: 'Манго в шоколаді 500г',
+        category: "dried-fruits",
+        minOrder: '1 шт',
+        available: false
+    },
+    {
+        id: 27,
+        name: 'Диня в шоколаді 500г',
+        category: "dried-fruits",
+        minOrder: '1 шт',
+        available: false
+    },
+    {
+        id: 28,
+        name: 'Асорті в шоколаді 500г',
+        category: "dried-fruits",
+        minOrder: '1 шт',
+        available: false
+    },
+    {
+        id: 29,
+        name: 'Банан в шоколаді 200г',
+        category: "dried-fruits",
+        minOrder: '1 шт',
+        available: false
+    },
 ];
