@@ -173,6 +173,6 @@ const nutsData = [
         name: 'Арахіс в кунжуті',
         category: "nuts",
         minOrder: '100 г',
-        available: false
+        available: true
     },
 ];

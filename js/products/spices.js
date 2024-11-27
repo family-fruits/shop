@@ -156,7 +156,7 @@ const spicesData = [
         name: "Суміш для м'яса",
         category: "spices",
         minOrder: '50 г',
-        available: false,
+        available: true,
         price: '25',
     },
     {
@@ -172,7 +172,7 @@ const spicesData = [
         name: 'Суміш для плову',
         category: "spices",
         minOrder: '50 г',
-        available: false,
+        available: true,
         price: '25',
     },
     {
@@ -180,7 +180,7 @@ const spicesData = [
         name: 'Суміш для риби',
         category: "spices",
         minOrder: '50 г',
-        available: false,
+        available: true,
         price: '25',
     },
     {

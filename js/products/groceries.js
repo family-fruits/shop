@@ -165,12 +165,12 @@ const groceriesData = [
         category: "grocery",
         minOrder: '1 уп',
         available: false,
-        price: "55"
+        price: "65"
     },
     {
         id: 25,
         name: 'Кунжут білий',
-        category: "nuts",
+        category: "grocery",
         minOrder: '100 г',
         available: false,
         price: "20"
@@ -178,9 +178,17 @@ const groceriesData = [
     {
         id: 26,
         name: 'Кунжут чорний',
-        category: "nuts",
+        category: "grocery",
         minOrder: '100 г',
         available: false,
         price: "25"
+    },
+    {
+        id: 27,
+        name: 'Олія рафінована',
+        category: "grocery",
+        minOrder: '5л',
+        available: true,
+        price: "325"
     },
 ];

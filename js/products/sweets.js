@@ -52,7 +52,7 @@ const sweetsData = [
         name: 'Цукерки полуниця в шоколаді',
         category: "sweet",
         minOrder: '0.5 кг',
-        available: false,
+        available: true,
         price: "125"
     },
     {
@@ -78,5 +78,53 @@ const sweetsData = [
         minOrder: '0.5 кг',
         available: true,
         price: "100"
+    },
+    {
+        id: 11,
+        name: 'Цукерки банан в шоколаді',
+        category: "sweet",
+        minOrder: '0.5 кг',
+        available: true,
+        price: "125"
+    },
+    {
+        id: 12,
+        name: 'Цукерки Мохіто',
+        category: "sweet",
+        minOrder: '0.5 кг',
+        available: true,
+        price: "125"
+    },
+    {
+        id: 13,
+        name: 'Грильяж',
+        category: "sweet",
+        minOrder: '0.5 кг',
+        available: true,
+        price: "125"
+    },
+    {
+        id: 14,
+        name: 'Козинаки',
+        category: "sweet",
+        minOrder: '1 кг',
+        available: true,
+        price: "160"
+    },
+    {
+        id: 15,
+        name: 'Цукерки грейпфрут в шоколаді',
+        category: "sweet",
+        minOrder: '0.5 кг',
+        available: true,
+        price: "125"
+    },
+    {
+        id: 16,
+        name: 'Цукерки солона карамель',
+        category: "sweet",
+        minOrder: '0.5 кг',
+        available: true,
+        price: "125"
     },
 ];
