@@ -12,7 +12,8 @@ let sortedBerries = berriesData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedJuices = juicesData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedSweets = sweetsData.sort((a, b) => a.name.localeCompare(b.name));
 let sortedTea = teaData.sort((a, b) => a.name.localeCompare(b.name));
-
+let sortedSpain = spainData.sort((a, b) => a.name.localeCompare(b.name));
+let sortedPickles = picklesData.sort((a, b) => a.name.localeCompare(b.name));
 
 // Containers
 const helloContainer = document.querySelector('.hello__container');
@@ -47,6 +48,8 @@ let tea = document.querySelector('#tea-btn')
 let groceries = document.querySelector('#grocery-btn')
 let juices = document.querySelector('#juices-btn')
 let contacts = document.querySelector('#contacts-btn')
+let spain = document.querySelector('#spain-btn')
+let pickles = document.querySelector('#pickles-btn')
 
 let basketBtn = document.querySelector('#basketBtn')
 let basketCopyBtn = document.querySelector('#basketCopyBtn')
@@ -104,6 +107,14 @@ juices.addEventListener('click', function(){
 
 contacts.addEventListener('click', function(){
     showContainer('contacts__container');
+});
+
+spain.addEventListener('click', function(){
+    fillProductList(sortedSpain);
+});
+
+pickles.addEventListener('click', function(){
+    fillProductList(sortedPickles);
 });
 
 menuBtn.addEventListener('click', function(){
@@ -289,5 +300,4 @@ logoBtn.addEventListener('click', function() {
     showContainer('hello__container');
 });
 
-// fillProductList(sortedGroceries);
-// showContainer('contacts__container');
+// fillProductList(sortedPickles);
