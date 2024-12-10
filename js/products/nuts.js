@@ -4,21 +4,24 @@ const nutsData = [
         name: 'Арахіс  смажений',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "15"
     },
     {
         id: 2,
         name: 'Арахіс бланшований',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "15"
     },
     {
         id: 3,
         name: 'Арахіс смажений солоний',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "20"
     },
     {
         id: 4,
@@ -46,14 +49,16 @@ const nutsData = [
         name: 'Горіх макадамія в шкаралупі',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "45"
     },
     {
         id: 8,
         name: 'Горіх макадамія очищений',
         category: "nuts",
         minOrder: '100 г',
-        available: false
+        available: true,
+        price: ""
     },
     {
         id: 9,
@@ -67,28 +72,32 @@ const nutsData = [
         name: 'Горіх пекан очищений',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "110"
     },
     {
         id: 11,
         name: 'Горіхова суміш',
         category: "nuts",
-        minOrder: '100 г',
-        available: true
+        minOrder: '500 г',
+        available: true,
+        price: "200"
     },
     {
         id: 12,
         name: "Кеш'ю сирий",
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "50"
     },
     {
         id: 13,
         name: "Кеш'ю смажений",
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "53"
     },
     
     {
@@ -103,7 +112,8 @@ const nutsData = [
         name: 'Ліщина сира',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "52"
     },
     {
         id: 18,
@@ -117,14 +127,16 @@ const nutsData = [
         name: 'Мигдаль сирий',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "45"
     },
     {
         id: 20,
         name: 'Мигдаль смажений',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "48"
     },
     {
         id: 21,
@@ -138,7 +150,8 @@ const nutsData = [
         name: 'Насіння гарбуза очищене',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "25"
     },
     {
         id: 23,
@@ -152,14 +165,16 @@ const nutsData = [
         name: 'Фісташки смажені солоні',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "62"
     },
     {
         id: 25,
         name: 'Горіх волоський очищений',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "20"
     },
     {
         id: 26,
@@ -173,6 +188,7 @@ const nutsData = [
         name: 'Арахіс в кунжуті',
         category: "nuts",
         minOrder: '100 г',
-        available: true
+        available: true,
+        price: "20"
     },
 ];

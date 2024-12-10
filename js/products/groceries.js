@@ -61,7 +61,7 @@ const groceriesData = [
         category: "grocery",
         minOrder: '0.5 кг',
         available: false,
-        price: "55"
+        price: "60"
     },
     {
         id: 9,
@@ -148,15 +148,15 @@ const groceriesData = [
         name: 'Рис Басматі Білий',
         category: "grocery",
         minOrder: '0.5 кг',
-        available: true,
-        price: "50"
+        available: false,
+        price: "60"
     },
     {
         id: 23,
         name: 'Рис Басматі Жовтий',
         category: "grocery",
         minOrder: '0.5 кг',
-        available: true,
+        available: false,
         price: "70"
     },
     {
@@ -172,7 +172,7 @@ const groceriesData = [
         name: 'Кунжут білий',
         category: "grocery",
         minOrder: '100 г',
-        available: false,
+        available: true,
         price: "20"
     },
     {

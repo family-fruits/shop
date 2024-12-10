@@ -189,7 +189,7 @@ const spicesData = [
         category: "spices",
         minOrder: '50 г',
         available: false,
-        price: '13',
+        price: '17',
     },
     {
         id: 26,
