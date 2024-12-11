@@ -192,7 +192,7 @@ const vegetablesData = [
         id: 28,
         name: 'Лемонграс',
         category: "vegetables",
-        minOrder: '100 г',
+        minOrder: '100г',
         available: false
     },
     {
@@ -227,14 +227,14 @@ const vegetablesData = [
         id: 33,
         name: 'Перець Білозірка',
         category: "vegetables",
-        minOrder: '100 г',
+        minOrder: '100г',
         available: false
     },
     {
         id: 34,
         name: 'Перець гіркий Падрон',
         category: "vegetables",
-        minOrder: '100 г',
+        minOrder: '100г',
         available: false
     },
     {
@@ -416,7 +416,14 @@ const vegetablesData = [
         id: 60,
         name: 'Часник',
         category: "vegetables",
-        minOrder: '100 г',
+        minOrder: '100г',
         available: true
+    },
+    {
+        id: 61,
+        name: 'Картопля молода Франція',
+        category: "vegetables",
+        minOrder: '1 кг',
+        available: false
     },
 ];
