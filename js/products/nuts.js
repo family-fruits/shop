@@ -98,7 +98,7 @@ const nutsData = [
         category: "nuts",
         minOrder: '100г',
         available: true,
-        price: "53"
+        price: "55"
     },
     
     {
@@ -129,7 +129,7 @@ const nutsData = [
         category: "nuts",
         minOrder: '100г',
         available: true,
-        price: "45"
+        price: "47"
     },
     {
         id: 20,
@@ -137,7 +137,7 @@ const nutsData = [
         category: "nuts",
         minOrder: '100г',
         available: true,
-        price: "48"
+        price: "49"
     },
     {
         id: 21,
@@ -167,7 +167,7 @@ const nutsData = [
         category: "nuts",
         minOrder: '100г',
         available: true,
-        price: "62"
+        price: "65"
     },
     {
         id: 25,
@@ -175,7 +175,7 @@ const nutsData = [
         category: "nuts",
         minOrder: '100г',
         available: true,
-        price: "20"
+        price: "26"
     },
     {
         id: 27,
